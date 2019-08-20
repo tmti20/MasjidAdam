@@ -123,14 +123,14 @@
 					<div class="text-inner pl-md-5">
 						<h3 class="heading">Masjid Adam <span> PRAYER TIMES</span></h3>
 						<!--              <p>Far far away,<strong>creative</strong> behind the word mountains, far from the countries Vokalia and Consonantia, there live the <strong>success</strong> blind texts. Separated they live in Bookmarksgrove</p>-->
-						<p><iframe src="https://timesprayer.com/widgets.php?frame=2&amp;lang=en&amp;name=paterson&amp;avachang=true&amp;method=2&amp;asr=1" style="border: none; overflow: hidden; width: 100%; height: 275px;"></iframe></p>
-						<ul class="my-4">
-							<strong> The Five Pillars of Islam</strong>
-							<li><span class="ion-ios-checkmark-circle mr-2"></span> 1. Faith or belief in the Oneness of God (Allah) and the finality of the Prophethood of Muhammad, peace be upon him (pbuh);</li>
-							<li><span class="ion-ios-checkmark-circle mr-2"></span> 2. Establishment of the 5 daily prayers;</li>
-							<li><span class="ion-ios-checkmark-circle mr-2"></span> 3. Concern for and almsgiving to the needy;</li>
-							<li><span class="ion-ios-checkmark-circle mr-2"></span> 4. Self-purification through fasting in the month of Ramadan.</li>
-							<li><span class="ion-ios-checkmark-circle mr-2"></span> 5. The pilgrimage to Mecca for those who are able.</li>
+							<div id='masjidi-iqamadiv'></div>
+								<script>
+									var _divIframe = document.getElementById('masjidi-iqamadiv');
+									var srcURL= 'http://ummahsoft.org/salahtime/masjid-embed/widget_prayer.php?masjid_id=50815&titlefontcolor=000000&fontcolor=000000&bgcolor=FFFFFF&bgcellcolor=FCFCFC&bordercolor=B5DCF8&hijridisplay=1&random=' + Date.now();
+									_divIframe.innerHTML = '<iframe src="' + srcURL + '" name="' + Date.now() + '" frameborder=0 width=238 height=400 marginwidth=1 marginheight=0 scrolling="no"/>';
+								</script>
+							<ul class="my-4">
+
 						</ul>
 					</div>
 				</div>
@@ -222,14 +222,15 @@
               <h3 class="heading">Welcome to <span>Masjid</span> Adam</h3>
 <!--              <p>Far far away,<strong>creative</strong> behind the word mountains, far from the countries Vokalia and Consonantia, there live the <strong>success</strong> blind texts. Separated they live in Bookmarksgrove</p>-->
               <p>Masjid Adam(A New Light, A New Home) is a project of <strong>MUNA Center Of Paterson</strong>. This is the first Masjid in the Bangladeshi Muslim community in Paterson (NJ) that have a prayer space for our sisters and the Masjid dedicated to helping our youth build a strong sense of Muslim identity. This Masjid is the new platform for us to continue our work in serving the Muslims and humanity at large.
-<!--							<ul class="my-4">-->
-<!--			  <strong> The Five Pillars of Islam</strong>-->
-<!--			  <li><span class="ion-ios-checkmark-circle mr-2"></span> 1. Faith or belief in the Oneness of God (Allah) and the finality of the Prophethood of Muhammad, peace be upon him (pbuh);</li>-->
-<!--			  <li><span class="ion-ios-checkmark-circle mr-2"></span> 2. Establishment of the 5 daily prayers;</li>-->
-<!--			  <li><span class="ion-ios-checkmark-circle mr-2"></span> 3. Concern for and almsgiving to the needy;</li>-->
-<!--			  <li><span class="ion-ios-checkmark-circle mr-2"></span> 4. Self-purification through fasting in the month of Ramadan.</li>-->
-<!--			  <li><span class="ion-ios-checkmark-circle mr-2"></span> 5. The pilgrimage to Mecca for those who are able.</li>-->
-<!--              </ul>-->
+
+							<ul class="my-4">
+			  <strong> The Five Pillars of Islam</strong>
+			  <li><span class="ion-ios-checkmark-circle mr-2"></span> 1. Faith or belief in the Oneness of God (Allah) and the finality of the Prophethood of Muhammad, peace be upon him (pbuh);</li>
+			  <li><span class="ion-ios-checkmark-circle mr-2"></span> 2. Establishment of the 5 daily prayers;</li>
+			  <li><span class="ion-ios-checkmark-circle mr-2"></span> 3. Concern for and almsgiving to the needy;</li>
+			  <li><span class="ion-ios-checkmark-circle mr-2"></span> 4. Self-purification through fasting in the month of Ramadan.</li>
+			  <li><span class="ion-ios-checkmark-circle mr-2"></span> 5. The pilgrimage to Mecca for those who are able.</li>
+              </ul>
             </div>
 			</div>
     		</div>
